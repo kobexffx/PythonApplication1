@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{a7d71ab4-301e-4f14-8d5f-c277834a405b}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>AIRS.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+    <InterpreterVersion />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="images\test0.gif" />
+    <Content Include="images\test1.gif" />
+    <Content Include="images\test2.gif" />
+    <Content Include="images\test3.gif" />
+    <Content Include="images\test4.gif" />
+    <Content Include="images\test5.gif" />
+    <Content Include="images\test6.gif" />
+    <Content Include="images\test7.gif" />
+    <Content Include="images\test8.gif" />
+    <Content Include="images\test9.gif" />
+    <Content Include="major_city.png" />
+    <Content Include="major_city.txt" />
+    <Content Include="major_country_gdp.txt" />
+    <Content Include="marvin.jpg" />
+    <Content Include="matplot_sample.jpg" />
+    <Content Include="output.gif" />
+    <Content Include="pic\0000.png" />
+    <Content Include="pic\0001.png" />
+    <Content Include="pic\0002.png" />
+    <Content Include="pic\0003.png" />
+    <Content Include="pic\0004.png" />
+    <Content Include="pic\0005.png" />
+    <Content Include="pic\0006.png" />
+    <Content Include="pic\0007.png" />
+    <Content Include="pic\0008.png" />
+    <Content Include="pic\0009.png" />
+    <Content Include="pic\0010.png" />
+    <Content Include="pic\0011.png" />
+    <Content Include="pic\0012.png" />
+    <Content Include="pic\0013.png" />
+    <Content Include="pic\0014.png" />
+    <Content Include="pic\0015.png" />
+    <Content Include="pic\0016.png" />
+    <Content Include="pic\0017.png" />
+    <Content Include="pic\0018.png" />
+    <Content Include="pic\0019.png" />
+    <Content Include="pic\0020.png" />
+    <Content Include="pic\0021.png" />
+    <Content Include="pic\0022.png" />
+    <Content Include="pic\0023.png" />
+    <Content Include="pic\0024.png" />
+    <Content Include="pic\0025.png" />
+    <Content Include="pic\0026.png" />
+    <Content Include="pic\0027.png" />
+    <Content Include="pic\0028.png" />
+    <Content Include="pic\0029.png" />
+    <Content Include="pic\0030.png" />
+    <Content Include="pic\0031.png" />
+    <Content Include="pic\0032.png" />
+    <Content Include="pic\0033.png" />
+    <Content Include="pic\0034.png" />
+    <Content Include="pic\0035.png" />
+    <Content Include="pic\0036.png" />
+    <Content Include="pic\0037.png" />
+    <Content Include="pic\0038.png" />
+    <Content Include="pic\0039.png" />
+    <Content Include="pic\0040.png" />
+    <Content Include="pic\0041.png" />
+    <Content Include="pic\0042.png" />
+    <Content Include="pic\0043.png" />
+    <Content Include="pic\0044.png" />
+    <Content Include="pic\0045.png" />
+    <Content Include="pic\0046.png" />
+    <Content Include="pic\0047.png" />
+    <Content Include="pic\0048.png" />
+    <Content Include="pic\0049.png" />
+    <Content Include="pic\0050.png" />
+    <Content Include="pic\0051.png" />
+    <Content Include="pic\0052.png" />
+    <Content Include="pic\0053.png" />
+    <Content Include="pic\0054.png" />
+    <Content Include="pic\0055.png" />
+    <Content Include="pic\0056.png" />
+    <Content Include="pic\0057.png" />
+    <Content Include="pic\0058.png" />
+    <Content Include="pic\2012110623244389.gif" />
+    <Content Include="test.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="tkinter.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="images" />
+    <Folder Include="pic" />
+  </ItemGroup>
+  <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="!Exists($(PtvsTargetsFile))" />
+</Project>

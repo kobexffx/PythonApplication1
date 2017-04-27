@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alert>
+    <identifier>00000041600000_20160825172354</identifier>
+    <sender>中央气象台</sender>
+    <senderCode>00000041600000</senderCode>
+    <sendTime>2016-08-25 17:20:54+08:00</sendTime>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <scope>Public</scope>
+    <code>
+        <method>
+            <methodName>BROADCAST</methodName>
+            <message>水利部和中国气象局8月24日18时联合发布山洪灾害气象预警：预计，8月24日20时至8月25日20时，新疆西南部、青海东北部、甘肃中南部、陕西西部等地的部分地区可能发生山洪灾害。请各地注意局地短历时强降水引发的山洪灾害，做好实时监测、防汛预警和转移避险等防范工作。 </message>
+            <audienceGrp>c593eb41-cf9b-4743-bb9f-cc8a8d24589a,</audienceGrp>
+            <audenceprt/>
+        </method>
+        <method>
+            <methodName>EMAIL</methodName>
+            <message>水利部和中国气象局8月24日18时联合发布山洪灾害气象预警：预计，8月24日20时至8月25日20时，新疆西南部、青海东北部、甘肃中南部、陕西西部等地的部分地区可能发生山洪灾害。请各地注意局地短历时强降水引发的山洪灾害，做好实时监测、防汛预警和转移避险等防范工作。 </message>
+            <audienceGrp>79cc1cb0-1469-4612-b91b-ba00cd8f3d6f,</audienceGrp>
+            <audenceprt/>
+        </method>
+        <method>
+            <methodName>FAX</methodName>
+            <message>水利部和中国气象局8月24日18时联合发布山洪灾害气象预警：预计，8月24日20时至8月25日20时，新疆西南部、青海东北部、甘肃中南部、陕西西部等地的部分地区可能发生山洪灾害。请各地注意局地短历时强降水引发的山洪灾害，做好实时监测、防汛预警和转移避险等防范工作。 </message>
+            <audienceGrp>79cc1cb0-1469-4612-b91b-ba00cd8f3d6f,</audienceGrp>
+            <audenceprt/>
+        </method>
+        <method>
+            <methodName>LED</methodName>
+            <message>水利部和中国气象局8月24日18时联合发布山洪灾害气象预警：预计，8月24日20时至8月25日20时，新疆西南部、青海东北部、甘肃中南部、陕西西部等地的部分地区可能发生山洪灾害。请各地注意局地短历时强降水引发的山洪灾害，做好实时监测、防汛预警和转移避险等防范工作。 </message>
+            <audienceGrp>f243616c-f098-4ee8-8513-2eb5baf527cb,</audienceGrp>
+            <audenceprt/>
+        </method>
+        <method>
+            <methodName>SPEAKER</methodName>
+            <message>水利部和中国气象局8月24日18时联合发布山洪灾害气象预警：预计，8月24日20时至8月25日20时，新疆西南部、青海东北部、甘肃中南部、陕西西部等地的部分地区可能发生山洪灾害。请各地注意局地短历时强降水引发的山洪灾害，做好实时监测、防汛预警和转移避险等防范工作。 </message>
+            <audienceGrp>02f11b40-2b72-46b0-8db9-774ca6d36754,</audienceGrp>
+            <audenceprt/>
+        </method>
+        <method>
+            <methodName/>
+            <message>水利部和中国气象局8月24日18时联合发布山洪灾害气象预警：预计，8月24日20时至8月25日20时，新疆西南部、青海东北部、甘肃中南部、陕西西部等地的部分地区可能发生山洪灾害。请各地注意局地短历时强降水引发的山洪灾害，做好实时监测、防汛预警和转移避险等防范工作。 </message>
+            <audienceGrp>a0008d8c-e915-41bd-904d-be8c7530f171,</audienceGrp>
+            <audenceprt/>
+        </method>
+        <method>
+            <methodName>SMS</methodName>
+            <message>水利部和中国气象局8月24日18时联合发布山洪灾害气象预警：预计，8月24日20时至8月25日20时，新疆西南部、青海东北部、甘肃中南部、陕西西部等地的部分地区可能发生山洪灾害。请各地注意局地短历时强降水引发的山洪灾害，做好实时监测、防汛预警和转移避险等防范工作。 </message>
+            <audienceGrp>79cc1cb0-1469-4612-b91b-ba00cd8f3d6f,</audienceGrp>
+            <audenceprt/>
+        </method>
+        <method>
+            <methodName>WEB</methodName>
+            <message>,</message>
+            <audienceGrp/>
+            <audenceprt/>
+        </method>
+    </code>
+    <secClassification>None</secClassification>
+    <note>水利部和中国气象局8月24日18时联合发布山洪灾害气象预警：预计，8月24日20时至8月25日20时，新疆西南部、青海东北部、甘肃中南部、陕西西部等地的部分地区可能发生山洪灾害。请各地注意局地短历时强降水引发的山洪灾害，做好实时监测、防汛预警和转移避险等防范工作。 </note>
+    <references/>
+    <info>
+        <language>zh-CN</language>
+        <eventType>11A51</eventType>
+        <urgency>Unknown</urgency>
+        <severity>Blue</severity>
+        <certainty>Unknown</certainty>
+        <effective>2016-08-24 17:23:54+08:00</effective>
+        <onset/>
+        <expires>2016-08-25 05:23:54+08:00</expires>
+        <senderName>
+    </senderName>
+        <headline>中央气象台发布山洪气象灾害蓝色预警[IV级/一般]</headline>
+        <description>水利部和中国气象局8月24日18时联合发布山洪灾害气象预警：预计，8月24日20时至8月25日20时，新疆西南部、青海东北部、甘肃中南部、陕西西部等地的部分地区可能发生山洪灾害。请各地注意局地短历时强降水引发的山洪灾害，做好实时监测、防汛预警和转移避险等防范工作。 </description>
+        <instruction/>
+        <web/>
+        <resource>
+            <resourceDesc>00000041600000_20160825172354_11A51_BLUE_ALERT_P_00.doc</resourceDesc>
+            <size>0.4165</size>
+            <digest/>
+        </resource>
+        <area>
+            <areaDesc>国家</areaDesc>
+            <polygon>113.52606328096564 39.59552424991582</polygon>
+            <circle/>
+            <geocode>000000000000</geocode>
+        </area>
+    </info>
+</alert>

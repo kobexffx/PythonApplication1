@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>d4703bee-5a7c-4dc9-971a-9fbb092a4117</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>scripts\readhdf4.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>PythonApplication1</Name>
+    <RootNamespace>PythonApplication1</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="scripts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="scripts\1_scripts_Model .py" />
+    <Compile Include="scripts\airport distribution.py" />
+    <Compile Include="scripts\airport_distribuion.py" />
+    <Compile Include="scripts\AIRS.py" />
+    <Compile Include="scripts\alerttest.py" />
+    <Compile Include="scripts\analyse_report.py" />
+    <Compile Include="scripts\barb_demo.py" />
+    <Compile Include="scripts\basemap_ex01.py" />
+    <Compile Include="scripts\basemap_example.py" />
+    <Compile Include="scripts\CalDis.py" />
+    <Compile Include="scripts\China_map.py" />
+    <Compile Include="scripts\ColourfulShapes.py" />
+    <Compile Include="scripts\countchar.py" />
+    <Compile Include="scripts\custom_dialogs.py" />
+    <Compile Include="scripts\dji.py" />
+    <Compile Include="scripts\download tankong.py" />
+    <Compile Include="scripts\download_Html.py" />
+    <Compile Include="scripts\drawmap.py" />
+    <Compile Include="scripts\dynamic_image2.py" />
+    <Compile Include="scripts\eastChina.py" />
+    <Compile Include="scripts\Fileoperator.py" />
+    <Compile Include="scripts\first.py" />
+    <Compile Include="scripts\fordemo.py" />
+    <Compile Include="scripts\ftpDwnload.py" />
+    <Compile Include="scripts\GDP_BAR.py" />
+    <Compile Include="scripts\GDP_PIE.py" />
+    <Compile Include="scripts\getALocatinFromBaidu.py" />
+    <Compile Include="scripts\getLonLat_frombaidu.py" />
+    <Compile Include="scripts\getpic.py" />
+    <Compile Include="scripts\get_XML_alert_Info.py" />
+    <Compile Include="scripts\globmap.py" />
+    <Compile Include="scripts\graphics.py" />
+    <Compile Include="scripts\group-figure.py" />
+    <Compile Include="scripts\inset_locator_demo.py" />
+    <Compile Include="scripts\isleapyear.py" />
+    <Compile Include="scripts\KeyEvents.py" />
+    <Compile Include="scripts\kmeansStu.py" />
+    <Compile Include="scripts\lilei.py" />
+    <Compile Include="scripts\line.py" />
+    <Compile Include="scripts\lorenz_model.py" />
+    <Compile Include="scripts\major_city.py" />
+    <Compile Include="scripts\Map tile acquisition.py" />
+    <Compile Include="scripts\fy3c_gfr_plot.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="scripts\Monisen.py" />
+    <Compile Include="scripts\moviewriter.py" />
+    <Compile Include="scripts\netCDF4_read.py" />
+    <Compile Include="scripts\NewUser.py" />
+    <Compile Include="scripts\nice_QQ_number.py" />
+    <Compile Include="scripts\obplot.py" />
+    <Compile Include="scripts\particle_box.py" />
+    <Compile Include="scripts\piechart.py" />
+    <Compile Include="scripts\plimage demo.py" />
+    <Compile Include="scripts\plot_Argo.py" />
+    <Compile Include="scripts\print2gif.py" />
+    <Compile Include="scripts\quotes.py" />
+    <Compile Include="scripts\quotespd.py" />
+    <Compile Include="scripts\quotesproc.py" />
+    <Compile Include="scripts\readhdf4.py" />
+    <Compile Include="scripts\read_txt_draw.py" />
+    <Compile Include="scripts\read_wpr.py" />
+    <Compile Include="scripts\sandy.py" />
+    <Compile Include="scripts\second.py" />
+    <Compile Include="scripts\simple_anchored_artists.py" />
+    <Compile Include="scripts\sorts.py" />
+    <Compile Include="scripts\summer.py" />
+    <Compile Include="scripts\tkinter.py" />
+    <Compile Include="scripts\WindProfiling.py" />
+    <Compile Include="scripts\wpr_drawing.py" />
+    <Compile Include="scripts\writeHDF4.py" />
+    <Compile Include="scripts\XML process .py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="scripts\custom_dialogs.pyc" />
+    <Content Include="scripts\demo.jpg" />
+    <Content Include="scripts\first.pyc" />
+    <Content Include="scripts\GDP_TOP10.txt" />
+    <Content Include="scripts\major_city.png" />
+    <Content Include="scripts\major_city.txt" />
+    <Content Include="scripts\major_country_gdp.txt" />
+    <Content Include="scripts\marvin.jpg" />
+    <Content Include="scripts\matplot_sample.jpg" />
+    <Content Include="scripts\output.gif" />
+    <Content Include="scripts\Python.pyproj" />
+    <Content Include="scripts\quotespd.pyc" />
+    <Content Include="scripts\test.txt" />
+    <Content Include="scripts\Tkinter.pyc" />
+    <Content Include="scripts\track.dat" />
+  </ItemGroup>
+  <Import Condition="Exists($(PtvsTargetsFile))" Project="$(PtvsTargetsFile)" />
+  <Import Condition="!Exists($(PtvsTargetsFile))" Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
